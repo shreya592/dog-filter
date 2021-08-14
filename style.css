@@ -1,0 +1,24 @@
+body
+{
+    font-family: 'Fredoka One', cursive;
+font-family: 'Palette Mosaic', cursive;
+}
+
+.btn-success:hover
+{
+background-color: rgb(61, 101, 101);
+}
+
+canvas
+{
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px rebeccapurple;}
+    to{box-shadow: 1px 1px 38px aquamarine;}
+}
